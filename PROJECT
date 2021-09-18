@@ -1,0 +1,11 @@
+domain: labeler.uthark.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: labeler
+repo: github.com/uthark/labeler
+resources:
+- controller: true
+  domain: labeler.uthark.dev
+  kind: Pod
+  version: v1
+version: "3"
